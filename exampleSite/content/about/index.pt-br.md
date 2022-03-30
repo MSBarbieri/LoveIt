@@ -1,6 +1,6 @@
 ---
-title: "À propos de LoveIt"
-date: 2019-08-02T11:04:49+08:00
+title: "Sobre mim"
+date: 2022-03-30T04:54:07-03:00
 draft: false
 
 lightgallery: true
@@ -10,23 +10,19 @@ math:
 ---
 
 {{< style "img { height: 1.25rem; }" >}}
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/MSBarbieri/LoveIt?style=flat-square)](https://github.com/MSBarbieri/LoveIt/releases)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/dillonzq/LoveIt?style=social)](https://github.com/dillonzq/LoveIt)
-[![GitHub forks](https://img.shields.io/github/forks/dillonzq/LoveIt?style=social)](https://github.com/dillonzq/LoveIt/fork)
+[![License](https://img.shields.io/github/license/MSBarbieri/LoveIt?style=flat-square)](https://github.com/MSBarbieri/LoveIt/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/MSBarbieri/LoveIt?style=social)](https://github.com/MSBarbieri/LoveIt)
+[![GitHub forks](https://img.shields.io/github/forks/MSBarbieri/LoveIt?style=social)](https://github.com/MSBarbieri/LoveIt/fork)
 {{< /style >}}
 
-{{< admonition warning >}}
-Sorry, this article has not been completely translated into **French**.
-Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/dillonzq/LoveIt/pulls) to the theme!
-{{< /admonition >}}
+<!-- {{< admonition warning >}} -->
+<!-- Sorry, this article has not been completely translated into **French**. -->
+<!-- Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/MSBarbieri/LoveIt/pulls) to the theme! -->
+<!-- {{< /admonition >}} -->
 
-> [:(far fa-kiss-wink-heart fa-fw): LoveIt](https://github.com/dillonzq/LoveIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Dillon](https://dillonzq.com).
->
-> It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
-
-![Hugo Theme LoveIt](/images/Apple-Devices-Preview.png "Hugo Theme LoveIt")
+<!-- > [:(far fa-kiss-wink-heart fa-fw): LoveIt](https://github.com/MSBarbieri/LoveIt) is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/) developed by [Dillon](https://MSBarbieri.com). -->
 
 ### Features
 
@@ -92,7 +88,7 @@ Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw
 
 LoveIt is licensed under the **MIT** license.
 
-Check the [LICENSE file](https://github.com/dillonzq/LoveIt/blob/master/LICENSE) for details.
+Check the [LICENSE file](https://github.com/MSBarbieri/LoveIt/blob/master/LICENSE) for details.
 
 Thanks to the authors of following resources included in the theme:
 

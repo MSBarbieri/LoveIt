@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://MSBarbieri.githubpages.io"
 # [en, zh-cn, fr, pl, ...] determines default content language
 # [en, zh-cn, fr, pl, ...] 设置默认的语言
 defaultContentLanguage = "en"
@@ -11,7 +11,7 @@ themesDir = "../.."
 
 # website title
 # 网站标题
-title = "LoveIt"
+title = "MSBarbieri"
 
 # whether to use robots.txt
 # 是否使用 robots.txt
@@ -88,7 +88,7 @@ identifier = "github"
 pre = "<i class='fab fa-github fa-fw'></i>"
 post = ""
 name = ""
-url = "https://github.com/dillonzq/LoveIt"
+url = "https://github.com/MSBarbieri/LoveIt"
 title = "GitHub"
 weight = 6
 [languages.en.params]
@@ -99,7 +99,7 @@ keywords = ["Theme", "Hugo"]
 # App icon config
 [languages.en.params.app]
 # optional site title override for the app when added to an iOS home screen or Android launcher
-title = "LoveIt"
+title = "Matheus Barbieri"
 # whether to omit favicon resource links
 noFavicon = false
 # modern SVG favicon to use in place of older style .png and .ico files
@@ -159,15 +159,15 @@ enable = true
 paginate = 6
 # Social config in home page
 [languages.en.params.social]
-GitHub = "xxxx"
-Linkedin = ""
-Twitter = "xxxx"
-Instagram = "xxxx"
-Facebook = "xxxx"
-Telegram = "xxxx"
+GitHub = "MSBarbieri"
+Linkedin = "matheus-barbieri"
+Twitter = ""
+Instagram = ""
+Facebook = ""
+Telegram = ""
 Medium = ""
 Gitlab = ""
-Youtubelegacy = "xxxx"
+Youtubelegacy = ""
 Youtubecustom = ""
 Youtubechannel = ""
 Tumblr = ""
@@ -198,7 +198,7 @@ Hackernews = ""
 Kickstarter = ""
 Patreon = ""
 Steam = ""
-Twitch = ""
+Twitch = "MattBarbieri"
 Strava = ""
 Skype = ""
 Whatsapp = ""
@@ -214,24 +214,21 @@ Wordpress = ""
 Vine = ""
 Googlescholar = ""
 Researchgate = ""
+Mastodon = ""
 Thingiverse = ""
 Devto = ""
 Gitea = ""
 XMPP = ""
 Matrix = ""
 Bilibili = ""
-Email = "xxxx@xxxx.com"
-RSS = true
-[languages.en.params.social.Mastodon]
-id = "@xxxx"
-prefix = "https://mastodon.technology/"
-
-[languages.fr]
+Email = "matheussouzabarbieri@gmail.com"
+RSS = false
+[languages.pt-br]
 weight = 3
 # language code
-languageCode = "fr"
+languageCode = "pt-br"
 # language name
-languageName = "Français"
+languageName = "Portugues"
 # whether to include Chinese/Japanese/Korean
 hasCJKLanguage = false
 # default amount of posts in each pages
@@ -240,9 +237,10 @@ paginate = 12
 googleAnalytics = ""
 # copyright description used only for seo schema
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+
 # Menu config
-[languages.fr.menu]
-[[languages.fr.menu.main]]
+[languages.pt-br.menu]
+[[languages.pt-br.menu.main]]
 identifier = "posts"
 pre = ""
 post = ""
@@ -250,23 +248,23 @@ name = "Postes"
 url = "/posts/"
 title = ""
 weight = 1
-[[languages.fr.menu.main]]
+[[languages.pt-br.menu.main]]
 identifier = "tags"
 pre = ""
 post = ""
-name = "Balises"
+name = "tags"
 url = "/tags/"
 title = ""
 weight = 2
-[[languages.fr.menu.main]]
+[[languages.pt-br.menu.main]]
 identifier = "categories"
 pre = ""
 post = ""
-name = "Catégories"
+name = "Categorias"
 url = "/categories/"
 title = ""
 weight = 3
-[[languages.fr.menu.main]]
+[[languages.pt-br.menu.main]]
 identifier = "documentation"
 pre = ""
 post = ""
@@ -274,30 +272,30 @@ name = "Docs"
 url = "/categories/documentation/"
 title = ""
 weight = 4
-[[languages.fr.menu.main]]
+[[languages.pt-br.menu.main]]
 identifier = "about"
 pre = ""
-name = "À propos"
+name = "Sobre"
 url = "/about/"
 title = ""
 weight = 5
-[[languages.fr.menu.main]]
+[[languages.pt-br.menu.main]]
 identifier = "github"
 pre = "<i class='fab fa-github fa-fw'></i>"
 post = ""
 name = ""
-url = "https://github.com/dillonzq/LoveIt"
+url = "https://github.com/MSBarbieri/LoveIt"
 title = "GitHub"
 weight = 6
-[languages.fr.params]
+[languages.pt-br.params]
 # site description
-description = "À propos du thème LoveIt"
+description = "site pessoal de matheus barbieri"
 # site keywords
-keywords = ["Thème", "Hugo"]
+keywords = ["portifolio", "Hugo"]
 # App icon config
-[languages.fr.params.app]
+[languages.pt-br.params.app]
 # optional site title override for the app when added to an iOS home screen or Android launcher
-title = "LoveIt"
+title = "MSBarbieri"
 # whether to omit favicon resource links
 noFavicon = false
 # modern SVG favicon to use in place of older style .png and .ico files
@@ -309,7 +307,7 @@ iconColor = "#5bbad5"
 # Windows v8-10 tile color
 tileColor = "#da532c"
 # Search config
-[languages.fr.params.search]
+[languages.pt-br.params.search]
 enable = true
 # type of search engine ("lunr", "algolia")
 type = "algolia"
@@ -325,16 +323,16 @@ snippetLength = 30
 highlightTag = "em"
 # whether to use the absolute URL based on the baseURL in search index
 absoluteURL = false
-[languages.fr.params.search.algolia]
-index = "index.fr"
+[languages.pt-br.params.search.algolia]
+index = "index.pt-br"
 appID = "PASDMWALPK"
 searchKey = "b42948e51daaa93df92381c8e2ac0f93"
 # Home page config
-[languages.fr.params.home]
+[languages.pt-br.params.home]
 # amount of RSS pages
 rss = 10
 # Home page profile
-[languages.fr.params.home.profile]
+[languages.pt-br.params.home.profile]
 enable = true
 # Gravatar Email for preferred avatar in home page
 gravatarEmail = ""
@@ -343,7 +341,7 @@ avatarURL = "/images/avatar.png"
 # title shown in home page (HTML format is supported)
 title = ""
 # subtitle shown in home page
-subtitle = "Un thème Hugo simple, élégant et efficace"
+subtitle = "Outro programador"
 # whether to use typeit animation for subtitle
 typeit = true
 # whether to show social links
@@ -351,15 +349,15 @@ social = true
 # disclaimer (HTML format is supported)
 disclaimer = ""
 # Home page posts
-[languages.fr.params.home.posts]
+[languages.pt-br.params.home.posts]
 enable = true
 # special amount of posts in each home posts page
 paginate = 6
 # Social config in home page
-[languages.fr.params.social]
-GitHub = "xxxx"
-Linkedin = "xxxx"
-Twitter = "xxxx"
+[languages.pt-br.params.social]
+GitHub = "MSBarbieri"
+Linkedin = "matheus-barbieri"
+Twitter = ""
 Instagram = ""
 Facebook = ""
 Telegram = ""
@@ -382,7 +380,7 @@ Odnoklassniki = ""
 VK = ""
 Flickr = ""
 Xing = ""
-Snapchat = "xxxx"
+Snapchat = ""
 Soundcloud = ""
 Spotify = ""
 Bandcamp = ""
@@ -392,11 +390,11 @@ Mix = ""
 Goodreads = ""
 Lastfm = ""
 Foursquare = ""
-Hackernews = "xxxx"
+Hackernews = ""
 Kickstarter = ""
 Patreon = ""
 Steam = ""
-Twitch = ""
+Twitch = "MattBarbieri"
 Strava = ""
 Skype = ""
 Whatsapp = ""
@@ -407,7 +405,7 @@ Slidershare = ""
 Jsfiddle = ""
 Deviantart = ""
 Behance = ""
-Dribbble = "xxxx"
+Dribbble = ""
 Wordpress = ""
 Vine = ""
 Googlescholar = ""
@@ -419,8 +417,7 @@ Gitea = ""
 XMPP = ""
 Matrix = ""
 Bilibili = ""
-Email = "xxxx@xxxx.com"
-RSS = true
+Email = "matheussouzabarbieri@gmail.com"
 
 [params]
 # LoveIt theme version
@@ -431,7 +428,7 @@ version = "0.2.X"
 defaultTheme = "auto"
 # public git repo url only then enableGitInfo is true
 # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-gitRepo = "https://github.com/dillonzq/LoveIt"
+gitRepo = "https://github.com/MSBarbieri/LoveIt"
 # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
 # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
 fingerprint = ""
@@ -459,7 +456,7 @@ mobileMode = "auto"
 logo = ""
 # title name
 # 标题名称
-name = "LoveIt"
+name = "Matheus Barbieri"
 # you can add extra information before the name (HTML format is supported), such as icons
 # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
 pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
@@ -848,8 +845,8 @@ codeFences = true
 guessSyntax = true
 lineNos = true
 lineNumbersInTable = true
-# false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
-# false 是必要的设置 (https://github.com/dillonzq/LoveIt/issues/158)
+# false is a necessary configuration (https://github.com/MSBarbieri/LoveIt/issues/158)
+# false 是必要的设置 (https://github.com/MSBarbieri/LoveIt/issues/158)
 noClasses = false
 # Goldmark is from Hugo 0.60 the default library used for Markdown
 # Goldmark 是 Hugo 0.60 以来的默认 Markdown 解析库
